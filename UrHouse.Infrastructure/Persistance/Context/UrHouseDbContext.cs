@@ -15,7 +15,7 @@ namespace UrHouse.Infrastructure.Persistance.Context
         public DbSet<Realtor> Realtor { get; set; } 
         public DbSet<User> User { get; set; }
 
-
+        public DbSet<Review> Review { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
