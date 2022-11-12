@@ -18,6 +18,6 @@ namespace UrHouse.Domain.Models.Entities
 
         public Apartament Apartament { get; set; }
 
-
+        public User User { get; set; }
     }
 }

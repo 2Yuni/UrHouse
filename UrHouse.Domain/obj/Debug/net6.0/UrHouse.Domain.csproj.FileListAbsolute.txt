@@ -10,3 +10,15 @@ D:\Final\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.dll
 D:\Final\UrHouse\UrHouse.Domain\obj\Debug\net6.0\refint\UrHouse.Domain.dll
 D:\Final\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.pdb
 D:\Final\UrHouse\UrHouse.Domain\obj\Debug\net6.0\ref\UrHouse.Domain.dll
+D:\test\UrHouse\UrHouse.Domain\bin\Debug\net6.0\UrHouse.Domain.deps.json
+D:\test\UrHouse\UrHouse.Domain\bin\Debug\net6.0\UrHouse.Domain.dll
+D:\test\UrHouse\UrHouse.Domain\bin\Debug\net6.0\UrHouse.Domain.pdb
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.csproj.AssemblyReference.cache
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.AssemblyInfoInputs.cache
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.AssemblyInfo.cs
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.csproj.CoreCompileInputs.cache
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.dll
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\refint\UrHouse.Domain.dll
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\UrHouse.Domain.pdb
+D:\test\UrHouse\UrHouse.Domain\obj\Debug\net6.0\ref\UrHouse.Domain.dll

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ЮРА\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Final\\UrHouse\\UrHouse.Application\\UrHouse.Application.csproj",
+      "projectUniqueName": "D:\\test\\UrHouse\\UrHouse.Application\\UrHouse.Application.csproj",
       "projectName": "UrHouse.Application",
-      "projectPath": "D:\\Final\\UrHouse\\UrHouse.Application\\UrHouse.Application.csproj",
-      "packagesPath": "C:\\Users\\ЮРА\\.nuget\\packages\\",
-      "outputPath": "D:\\Final\\UrHouse\\UrHouse.Application\\obj\\",
+      "projectPath": "D:\\test\\UrHouse\\UrHouse.Application\\UrHouse.Application.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\test\\UrHouse\\UrHouse.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ЮРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

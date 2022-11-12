@@ -133,6 +133,34 @@ namespace UrHouse.Infrastructure.Migrations
                     b.ToTable("Booking");
                 });
 
+            modelBuilder.Entity("UrHouse.Domain.Models.Entities.PriceOffer", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("ApartamentId")
+                        .HasColumnType("int");
+
+                    b.Property<long>("AppartamentId")
+                        .HasColumnType("bigint");
+
+                    b.Property<decimal>("NewPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("PromotionalText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppartamentId");
+
+                    b.ToTable("PriceOffers");
+                });
+
             modelBuilder.Entity("UrHouse.Domain.Models.Entities.Realtor", b =>
                 {
                     b.Property<long>("Id")
@@ -158,6 +186,43 @@ namespace UrHouse.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Realtor");
+                });
+
+            modelBuilder.Entity("UrHouse.Domain.Models.Entities.Review", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("ApartamentId")
+                        .HasColumnType("int");
+
+                    b.Property<long>("ApartamentId1")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<short>("NumStars")
+                        .HasColumnType("smallint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("VoterName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApartamentId1");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Review");
                 });
 
             modelBuilder.Entity("UrHouse.Domain.Models.Entities.User", b =>
@@ -220,6 +285,36 @@ namespace UrHouse.Infrastructure.Migrations
 
                     b.HasOne("UrHouse.Domain.Models.Entities.User", "User")
                         .WithMany("Bookings")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Apartament");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("UrHouse.Domain.Models.Entities.PriceOffer", b =>
+                {
+                    b.HasOne("UrHouse.Domain.Models.Entities.Apartament", "Appartament")
+                        .WithMany()
+                        .HasForeignKey("AppartamentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Appartament");
+                });
+
+            modelBuilder.Entity("UrHouse.Domain.Models.Entities.Review", b =>
+                {
+                    b.HasOne("UrHouse.Domain.Models.Entities.Apartament", "Apartament")
+                        .WithMany()
+                        .HasForeignKey("ApartamentId1")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("UrHouse.Domain.Models.Entities.User", "User")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

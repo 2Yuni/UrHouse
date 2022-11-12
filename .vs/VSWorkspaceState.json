@@ -2,10 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\UrHouse.Api",
+    "\\UrHouse.Domain",
     "\\UrHouse.Domain\\Models",
     "\\UrHouse.Domain\\Models\\Entities",
-    "\\UrHouse.Domain\\Models\\Enums"
+    "\\UrHouse.Domain\\Models\\Enums",
+    "\\UrHouse.Infrastructure",
+    "\\UrHouse.Infrastructure\\Persistance",
+    "\\UrHouse.Infrastructure\\Persistance\\Context"
   ],
-  "SelectedNode": "\\UrHouse.sln",
+  "SelectedNode": "\\UrHouse.Domain\\Models\\Entities\\Review.cs",
   "PreviewInSolutionExplorer": false
 }
