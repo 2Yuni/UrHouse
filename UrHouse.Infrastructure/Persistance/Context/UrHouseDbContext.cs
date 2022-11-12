@@ -3,7 +3,7 @@ using UrHouse.Infrastructure.Persistance.Configurations;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace UrHouseDbContext.Infrastructure.Persistance.Context
+namespace UrHouse.Infrastructure.Persistance.Context
 {
     public class UrHouseDbContext : DbContext
     {
@@ -15,13 +15,15 @@ namespace UrHouseDbContext.Infrastructure.Persistance.Context
         public DbSet<Realtor> Realtor { get; set; } 
         public DbSet<User> User { get; set; }
 
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new AddressConfig());
             modelBuilder.ApplyConfiguration(new ApartamentConfig());
-            modelBuilder.ApplyConfiguration(new BrandConfig());
-            modelBuilder.ApplyConfiguration(new EquipmentInfoConfig());
-            modelBuilder.ApplyConfiguration(new CategoryConfig());
+            modelBuilder.ApplyConfiguration(new BookingConfig());
+            modelBuilder.ApplyConfiguration(new RealtorConfig());
+
         }
     }
 }

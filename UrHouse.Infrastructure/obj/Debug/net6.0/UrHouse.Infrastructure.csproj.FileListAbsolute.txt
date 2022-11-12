@@ -1,0 +1,17 @@
+D:\Final\UrHouse\UrHouse.Infrastructure\bin\Debug\net6.0\UrHouse.Infrastructure.deps.json
+D:\Final\UrHouse\UrHouse.Infrastructure\bin\Debug\net6.0\UrHouse.Infrastructure.dll
+D:\Final\UrHouse\UrHouse.Infrastructure\bin\Debug\net6.0\UrHouse.Infrastructure.pdb
+D:\Final\UrHouse\UrHouse.Infrastructure\bin\Debug\net6.0\UrHouse.Domain.dll
+D:\Final\UrHouse\UrHouse.Infrastructure\bin\Debug\net6.0\UrHouse.Domain.pdb
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.csproj.AssemblyReference.cache
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.AssemblyInfoInputs.cache
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.AssemblyInfo.cs
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.csproj.CopyComplete
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.dll
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\refint\UrHouse.Infrastructure.dll
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.pdb
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\ref\UrHouse.Infrastructure.dll
+D:\Final\UrHouse\UrHouse.Infrastructure\bin\Debug\net6.0\UrHouse.Infrastructure.runtimeconfig.json
+D:\Final\UrHouse\UrHouse.Infrastructure\obj\Debug\net6.0\UrHouse.Infrastructure.genruntimeconfig.cache

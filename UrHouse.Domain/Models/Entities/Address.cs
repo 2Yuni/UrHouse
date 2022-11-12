@@ -13,6 +13,7 @@ namespace UrHouse.Domain.Models.Entities
         public string Street { get; set; }
         public string Number { get; set; }
 
+        public long ApartamentId { get; set; }
         public Apartament Apartament { get; set; }
 
     }

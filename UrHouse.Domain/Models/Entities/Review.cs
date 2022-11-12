@@ -17,5 +17,7 @@ namespace UrHouse.Domain.Models.Entities
         public int ApartamentId { get; set; }
 
         public Apartament Apartament { get; set; }
+
+
     }
 }

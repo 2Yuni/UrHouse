@@ -1,0 +1,12 @@
+D:\Final\UrHouse\UrHouse.Application\bin\Debug\net6.0\UrHouse.Application.deps.json
+D:\Final\UrHouse\UrHouse.Application\bin\Debug\net6.0\UrHouse.Application.dll
+D:\Final\UrHouse\UrHouse.Application\bin\Debug\net6.0\UrHouse.Application.pdb
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.csproj.AssemblyReference.cache
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.AssemblyInfoInputs.cache
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.AssemblyInfo.cs
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.csproj.CoreCompileInputs.cache
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.dll
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\refint\UrHouse.Application.dll
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\UrHouse.Application.pdb
+D:\Final\UrHouse\UrHouse.Application\obj\Debug\net6.0\ref\UrHouse.Application.dll
